@@ -1,0 +1,74 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>For Thandolwami ❤️</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #ff4e75, #ff1e56);
+            font-family: 'Arial', sans-serif;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            overflow: hidden;
+            color: white;
+        }
+
+        h1 {
+            font-size: 55px;
+            font-weight: bold;
+            text-shadow: 0 0 20px rgba(255,255,255,0.6);
+            animation: glow 1.5s infinite alternate;
+        }
+
+        p {
+            position: absolute;
+            bottom: 20px;
+            font-size: 18px;
+            opacity: 0.9;
+        }
+
+        @keyframes glow {
+            from { transform: scale(1); }
+            to { transform: scale(1.05); }
+        }
+
+        /* Floating hearts */
+        .heart {
+            position: absolute;
+            color: #fff;
+            animation: float 6s linear infinite;
+            font-size: 24px;
+        }
+
+        @keyframes float {
+            0% {
+                transform: translateY(100vh);
+                opacity: 1;
+            }
+            100% {
+                transform: translateY(-10vh);
+                opacity: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Thandolwami 💖<br>Will You Be My Valentine?</h1>
+
+    <p>From Carbo Your Goat ❤️</p>
+
+    <!-- Floating Hearts -->
+    <div class="heart" style="left:10%;">❤️</div>
+    <div class="heart" style="left:25%; animation-delay:2s;">💘</div>
+    <div class="heart" style="left:50%; animation-delay:4s;">💕</div>
+    <div class="heart" style="left:75%; animation-delay:1s;">💖</div>
+    <div class="heart" style="left:90%; animation-delay:3s;">💞</div>
+
+</body>
+</html>
